@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+header {
+    background-color: #87CEEB;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.student-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 6px 0;
+    text-align: left;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 20px 0 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+li {
+    margin: 4px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 7px;
+    text-align: center;
+}
+
+th {
+    background-color: #eee;
+}
+
+form {
+    text-align: left;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #999;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 70px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 7px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
